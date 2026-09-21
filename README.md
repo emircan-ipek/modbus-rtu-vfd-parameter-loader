@@ -112,13 +112,7 @@ A few problems that shaped the final design, documented here because they are no
 .
 ├── src/
 │   └── parameter_loader.ino    # Main firmware (Arduino framework)
-├── docs/
-│   ├── wiring_diagram.png      # ESP32-C3 ↔ RS-485 ↔ drive connections
-│   ├── pinout.md
-│   └── serial_output.txt       # Example transfer log
-├── media/
-│   ├── device.jpg              # Photos of the assembled device
-│   └── demo.mp4                # Short demo video (or link to it)
+├── docs/Parameter Loading Device.docx
 ├── LICENSE
 └── README.md
 ```
@@ -129,7 +123,7 @@ A few problems that shaped the final design, documented here because they are no
 
 **Prerequisites:** Arduino IDE with ESP32 board support, plus the `ModbusMaster` and `ModbusRTUSlave` libraries.
 
-1. Wire the hardware according to `docs/wiring_diagram.png`.
+1. Wire the hardware according to `docs/Parameter Loading Device.docx`.
 2. Open `src/parameter_loader.ino` in the Arduino IDE.
 3. Select **ESP32C3 Dev Module** as the board and upload.
 4. Connect the device to a PC and open QModMaster, targeting slave ID 1 (bank 1).
