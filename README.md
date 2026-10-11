@@ -135,7 +135,7 @@ A few problems that shaped the final design, documented here because they are no
 ## Author
 
 **Emircan İpek** — Electrical & Electronics Engineering, Haliç University
-[LinkedIn](https://linkedin.com/in/emircan-ipek-b53159291)
+[LinkedIn](https://www.linkedin.com/in/emircan-ipek)
 
 ## License
 
